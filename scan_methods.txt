@@ -1,0 +1,18 @@
+method		annm	calf	dist	fksi	smfs	excd	details
+calend    	F	0	gauss	NA	30	above	standard_calendar
+calend2   	F	0	snorm	NA	30	above	calendar_with_skew-normal
+locmax    	F	7	gauss	NA	30	above	standard_7d_local-maxima
+locmax15    	F	15	gauss	NA	30	above   15d_local-maxima
+locmax30    	F	30	gauss	NA	30	above	30d_local-maxima
+locmin    	F	7	gauss	NA	30	below	standard_7d_local-minima
+locmin15    	F	15	gauss	NA	30	below	15d_local-minima
+locmin30    	F	30	gauss	NA	30	below	30d_local-minima
+annmax		T	0	gev	NA	NA	above	standard_annual-maxima
+annmax1		T	0	gev	NA	1	above	annual-maxima_with_xi_constant
+annmax2		T	0	gumbel	NA	NA	above	annual-maxima_with_gumbel
+annmax3		T	0	gauss   NA	NA	above	annual-maxima_with_normal
+annmin		T	0	gevmin	NA	NA	below	standard_annual-minima
+annmin1		T	0	gevmin	NA	1	below	annual-maxima_with_xi_constant
+annmin2		T	0	gevmin	0	NA	below	annual-maxima_with_gumbel
+annmin3		T	0	gauss   NA	NA	below	annual-maxima_with_normal
+
