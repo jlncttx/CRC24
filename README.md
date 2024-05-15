@@ -2,7 +2,7 @@ Codes associated with Cattiaux, Ribes and Cariou (2024), How extreme were daily 
 
 Details:
 
-    Running the scanning procedure.
+1. Running the scanning procedure.
 
 scan_tglo.R is the executable script that gets the ERA5 data, performs the analysis and saves the results. Results are stored as "scan_1d" objects, i.e. a list containing all information of a scan with one method (data, trend, fits, p1, etc.).
 
@@ -18,7 +18,7 @@ scan_1d_sub.R is sourced by scan_tglo.R. It contains functions useful to scan on
 
 scan_methods.txt is read by scan_1d_exe.R. It contains the namelist of parameters for each scanning method.
 
-    Visualizing the results.
+2. Visualizing the results.
 
 scan_functions.R contains functions to get scan.1d objects and select the most extreme events (full chronology).
 
